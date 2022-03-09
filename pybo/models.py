@@ -4,7 +4,7 @@ from django.db import models
 1. 각 field 설명 document
     https://docs.djangoproject.com/en/3.0/ref/models/fields/#field-types
 
-2. django shell에서 model에 적용가능한 filter document
+2. query 만들기 document 
     https://docs.djangoproject.com/en/3.0/topics/db/queries/
 
 '''
