@@ -1,0 +1,2 @@
+# mysite
+djagno tutorial project
