@@ -12,6 +12,11 @@
     <title>Hello, pybo!</title>
 </head>
 <body>
+<!-- jQeury JS-->
+<script src="{% static 'jquery-3.6.0.min.js' %}"></script>
+<!-- Bootstrap JS -->
+<script src="{% static 'bootstrap.min.js' %}"></script>
+<!-- 자바스크립트 Start -->
 <!-- 네비게이션 바 -->
 <!-- getbootstrap.com/docs/4.5/components/navbar-->
 {% include "navbar.html" %}
@@ -19,9 +24,8 @@
 {% block content %}
 {% endblock %}
 <!-- 기본 템플릿 안에 삽입될 내용 End-->
-<!-- jQeury JS-->
-<script src="{% static 'jquery-3.6.0.min.js' %}"></script>
-<!-- Bootstrap JS -->
-<script src="{% static 'bootstrap.min.js' %}"></script>
+{% block script %}
+{% endblock %}
+<!-- 자바스크립트 Stop -->
 </body>    
 </html>
