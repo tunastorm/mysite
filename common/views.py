@@ -24,4 +24,4 @@ def page_not_found(request, exception):
     """
     page not found
     """
-    return render(request, 'common/404.html')
+    return render(request, 'common/404.html', {})
