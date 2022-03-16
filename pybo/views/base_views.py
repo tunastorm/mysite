@@ -5,6 +5,7 @@ from django.db.models import Q, Count
 from ..models import Question
 
 def index(request):
+    3/0 # 강제 오류 발생
     '''
     pybo 목록 출력
     
