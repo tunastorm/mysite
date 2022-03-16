@@ -20,7 +20,7 @@ def signup(request):
         form = UserForm()
     return render(request, 'common/signup.html', {'form': form})
 
-def page_not_found(request):
+def page_not_found(request, exception):
     """
     page not found
     """
