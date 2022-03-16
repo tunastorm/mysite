@@ -19,3 +19,9 @@ def signup(request):
     else:
         form = UserForm()
     return render(request, 'common/signup.html', {'form': form})
+
+def page_not_found(request):
+    """
+    page not found
+    """
+    return render(request, 'common/404.html')
