@@ -11,7 +11,7 @@ Backend
  - WAS: gunicorn
  
 Deploy environment in AWS Lightsails
- - ubuntu EC2 instance atattched
+ - ubuntu EC2 instance
  - PostgreSQL instance
  - static IP
 
