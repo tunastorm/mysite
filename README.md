@@ -1,4 +1,4 @@
-# pybo 질문 게시판 프로젝트
+# 질문 게시판 프로젝트
 
 Front
  - javascript, jquery
